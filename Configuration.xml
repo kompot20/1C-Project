@@ -233,10 +233,14 @@
 			<Document>УстановкаЦеныНоменклатуры</Document>
 			<DocumentJournal>ТорговыеДокументы</DocumentJournal>
 			<Enum>ТипыТоваров</Enum>
+			<Report>ОстаткиВзаиморасчетов</Report>
+			<Report>ПродажиТоваров</Report>
+			<Report>ПродажиПоДаннымТабличнойЧасти</Report>
 			<InformationRegister>КурсВалют</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
+			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

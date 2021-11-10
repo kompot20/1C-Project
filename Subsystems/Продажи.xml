@@ -23,6 +23,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаЦеныНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПокупкиПосетителя</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиВзаиморасчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажиТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажиПоДаннымТабличнойЧасти</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

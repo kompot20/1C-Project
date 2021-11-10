@@ -87,6 +87,9 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ТоварыТоварКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="ТоварыТоварРасширеннаяПодсказка" id="37"/>
+					<Events>
+						<Event name="OnChange">ТоварыТоварПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="ТоварыКоличество" id="38">
 					<DataPath>Объект.Товары.Количество</DataPath>
