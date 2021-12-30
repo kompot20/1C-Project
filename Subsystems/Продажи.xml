@@ -26,6 +26,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиВзаиморасчетов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажиТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажиПоДаннымТабличнойЧасти</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ВедомостьПоПродажам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

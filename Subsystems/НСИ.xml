@@ -24,6 +24,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФитнесКлуб</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсВалют</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.НаименованиеОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
