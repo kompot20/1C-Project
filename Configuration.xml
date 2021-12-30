@@ -47,7 +47,9 @@
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
-			<DefaultRoles/>
+			<DefaultRoles>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.БазовыеПрава</xr:Item>
+			</DefaultRoles>
 			<Vendor/>
 			<Version/>
 			<UpdateCatalogAddress/>
@@ -218,14 +220,37 @@
 			<Subsystem>Продажи</Subsystem>
 			<Subsystem>Закупки</Subsystem>
 			<Subsystem>НСИ</Subsystem>
+			<Subsystem>БухУчет</Subsystem>
+			<Subsystem>ЗадачиИБизнесПроцессы</Subsystem>
 			<CommonPicture>ПодсистемыПродажи</CommonPicture>
 			<CommonPicture>ПодсистемыЗакупки</CommonPicture>
 			<CommonPicture>ПодсистемыНСИ</CommonPicture>
+			<CommonPicture>ПодсистемыБухУчет</CommonPicture>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<SessionParameter>РазделительИБЗначение</SessionParameter>
+			<SessionParameter>РазделительИБИспользование</SessionParameter>
+			<Role>ПолныеПрава</Role>
+			<Role>ОткрытиеВнешнихОбработок</Role>
+			<Role>БазовыеПрава</Role>
+			<Role>ПросмотрДокументовЗакупок</Role>
+			<Role>ПросмотрСправочникаНоменклатуры</Role>
+			<Role>ПросмотрСправочникаКонтрагенты</Role>
+			<Role>ПросмотрСправочникаПользователи</Role>
+			<Role>ПодсистемаЗакупки</Role>
+			<Role>ПодсистемаНСИ</Role>
+			<Role>УдалениеНоменклатурыИнтерактивно</Role>
+			<Role>ДобавлениеИзменениеДокументовЗакупок</Role>
+			<Role>ДобавлениеИзменениеПользователи</Role>
+			<Role>ПросмотрДокументаУстановкаЦеныНоменклатуры</Role>
+			<Role>ДоступКНСИ</Role>
+			<Role>ПодсистемаЗадачиИБизнесПроцессы</Role>
+			<CommonAttribute>РазделительИБ</CommonAttribute>
 			<Constant>НаименованиеОрганизации</Constant>
 			<Catalog>ФитнесКлуб</Catalog>
 			<Catalog>Контрагентры</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Валюта</Catalog>
+			<Catalog>Пользователи</Catalog>
 			<Document>ПокупкиПосетителя</Document>
 			<Document>ПоступлениеТовара</Document>
 			<Document>РеализацияТоваров</Document>
@@ -233,14 +258,20 @@
 			<Document>УстановкаЦеныНоменклатуры</Document>
 			<DocumentJournal>ТорговыеДокументы</DocumentJournal>
 			<Enum>ТипыТоваров</Enum>
+			<Enum>СтатусыЗадач</Enum>
 			<Report>ОстаткиВзаиморасчетов</Report>
 			<Report>ПродажиТоваров</Report>
 			<Report>ПродажиПоДаннымТабличнойЧасти</Report>
+			<Report>ВедомостьПоПродажам</Report>
 			<InformationRegister>КурсВалют</InformationRegister>
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
+			<AccumulationRegister>СебестоимостьТоваров</AccumulationRegister>
+			<ChartOfAccounts>БухгалтерскийУчет</ChartOfAccounts>
+			<AccountingRegister>РегистрБухУчет</AccountingRegister>
+			<Task>ЗадачиПользователя</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
